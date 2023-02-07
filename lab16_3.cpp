@@ -12,7 +12,7 @@ int main(){
 	cout << "The highest value in array A is "<< *pa << "\n";
 	
 	double *pb = max_element(b,b+9); 
-	cout << "Address of the highest value in array B is " << pb << "\n";
+	cout << "Address of the highest value in array B is " << pb << "\n";  
 	cout << "The highest value in array B is "<< *pb << "\n";
 
 	return 0;
